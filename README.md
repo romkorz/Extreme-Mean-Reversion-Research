@@ -40,18 +40,12 @@ Systematically fading such moves can offer a repeatable edge.
 
 ## Conclusion
 
-Results look promising during periods of extreme volatility. Implementing a more advanced volatility filter could help achieve even better performance.
-As even under **large slippage assumptions** (0.30 % stop impact + 0.05 % market fee), the ladder maintains overall positive expectancy.
-
----
-
-## Open Question
-
-* Can the strategy remain viable if position size is kept small enough to keep slippage small?
+Results look promising. Implementing a more advanced volatility filter could help achieve even better performance.
+As even under large slippage assumptions (0.30 % stop impact + 0.05 % market fee), the ladder maintains overall positive expectancy.
 
 ---
 
 ## TODO / Next Steps
 
-* **Model** a deeper backtest incorporating full order‑book & tick‑level trade data.
-* **Live test** the strategy with small size to capture real slippage & execution metrics.
+* **Model** a deeper backtest with order‑book & trade history data.
+* **Live test** the strategy to capture real slippage & execution metrics.
